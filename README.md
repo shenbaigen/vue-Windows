@@ -24,12 +24,12 @@
 我希望将全模块所在路径和缓存路径放在我node.js安装的文件夹中
 1.在C:\nodejs 目录下新建文件夹  
 
-node_global 
-node_cache
+【node_global】 
+【node_cache】
 
 2.运行命令 
-npm config set prefix "C:\nodejs\node_global"
-npm config set cache "C:\nodejs\node_cache"
+【npm config set prefix "C:\nodejs\node_global"】
+【npm config set cache "C:\nodejs\node_cache"】
 ![图片](https://user-images.githubusercontent.com/89723655/138819337-e7a12f06-4766-4743-850b-f28b652e571a.png)
 
 3.接下来设置环境变量，关闭cmd窗口，“我的电脑”-右键-“属性”-“高级系统设置”-“高级”-“环境变量”
@@ -40,7 +40,7 @@ npm config set cache "C:\nodejs\node_cache"
 
 配置完后，安装个module测试下，我们就安装最常用的express模块，打开cmd窗口，
 输入如下命令进行模块的全局安装
-npm install express -g     # -g是全局安装的意思
+【npm install express -g】     # -g是全局安装的意思
 ![图片](https://user-images.githubusercontent.com/89723655/138819178-0f32913c-b1c2-46c8-b8a4-e4c2a8f443bc.png)
 
 
@@ -53,27 +53,29 @@ npm install -g cnpm -registry=https://registry.npm.taobao.org
 1.安装全局webpack
 
 （C盘）进行全局安装，在命令行里输入： 
-cnpm install webpack -g    
+【cnpm install webpack -g】    
 ![图片](https://user-images.githubusercontent.com/89723655/138819261-8df5bfa6-389f-401a-9942-f02f9b4581d2.png)
 
 2.安装vue-cli脚手架工具
 
 （C盘）进行全局安装，在命令行里输入：
-cnpm install -g vue-cli  
+【cnpm install -g vue-cli】  
 ![图片](https://user-images.githubusercontent.com/89723655/138818690-b576ecb5-850f-45a9-8f8c-1bf8ba647093.png)
 
 3.创建项目
 
-关闭命令行，任意选择一个盘（这里，我选择D盘，新建一个名为mypro的文件夹），把mypro文件夹放进HBuilder，进入D盘mypro文件夹，右键选择在此处打开命令窗口，输入 
-vue init webpack vuetest
+进入C盘目录【cd c:/】
+
+创建名叫VUETEST的测试项目【vue init webpack vuetest】
+前三项确定 
+![图片](https://user-images.githubusercontent.com/89723655/138823444-1c891840-071c-4e92-bb81-68d277d380e3.png)
+
+4.进入项目文件夹：【cd vuetest】
 
 
-4.进入项目文件夹：cd vuetest
+5.安装完成后输入：【npm run dev】  运行测试
 
-
-5.安装完成后输入：npm run dev  运行测试
-
-6.vue 打包命令 npm run build
+6.vue 打包命令 【npm run build】
 
 
 
