@@ -1,4 +1,4 @@
-vue windows环境配置
+ node  vue  Windows环境基本配置 
 
 一、安装node.js
 
