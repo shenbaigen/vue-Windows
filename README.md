@@ -12,6 +12,7 @@
 (3).勾选“I accept the terms in the License Agreement”同意许可协议，并单击Next下一步，出现如下界面：
 
 (4).Node.js默认安装路径为“C:\nodejs\”，可以修改其他盘（我选择的是安装在C盘），单击Next，出现安装模式及模块选择界面：
+![图片](https://user-images.githubusercontent.com/89723655/138818965-00e6b761-4cff-4448-b970-9059c7e20191.png)
 
 (5).接着点击Next:
 
@@ -29,6 +30,7 @@ node_cache
 2.运行命令 
 npm config set prefix "C:\nodejs\node_global"
 npm config set cache "C:\nodejs\node_cache"
+![图片](https://user-images.githubusercontent.com/89723655/138819337-e7a12f06-4766-4743-850b-f28b652e571a.png)
 
 3.接下来设置环境变量，关闭cmd窗口，“我的电脑”-右键-“属性”-“高级系统设置”-“高级”-“环境变量”
 
@@ -39,6 +41,7 @@ npm config set cache "C:\nodejs\node_cache"
 配置完后，安装个module测试下，我们就安装最常用的express模块，打开cmd窗口，
 输入如下命令进行模块的全局安装
 npm install express -g     # -g是全局安装的意思
+![图片](https://user-images.githubusercontent.com/89723655/138819178-0f32913c-b1c2-46c8-b8a4-e4c2a8f443bc.png)
 
 
 
@@ -51,6 +54,7 @@ npm install -g cnpm -registry=https://registry.npm.taobao.org
 
 （C盘）进行全局安装，在命令行里输入： 
 cnpm install webpack -g    
+![图片](https://user-images.githubusercontent.com/89723655/138819261-8df5bfa6-389f-401a-9942-f02f9b4581d2.png)
 
 2.安装vue-cli脚手架工具
 
