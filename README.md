@@ -22,7 +22,10 @@
 (8).打开cmd（Windows+R），检测node是否安装成功：
 
 我希望将全模块所在路径和缓存路径放在我node.js安装的文件夹中
-1.在C:\nodejs 目录下新建文件夹  node_global    node_cache
+1.在C:\nodejs 目录下新建文件夹  
+
+node_global 
+node_cache
 
 2.运行命令
 npm config set prefix "C:\nodejs\node_global"
@@ -47,11 +50,13 @@ npm install -g cnpm -registry=https://registry.npm.taobao.org
 
 1.安装全局webpack
 
-在命令行里输入：cnpm install webpack -g （C盘）进行全局安装：
+（C盘）进行全局安装，在命令行里输入： 
+cnpm install webpack -g    
 
 2.安装vue-cli脚手架工具
 
-在命令行里输入：cnpm install -g vue-cli  （C盘）进行全局安装:
+（C盘）进行全局安装，在命令行里输入：
+cnpm install -g vue-cli  
 
 3.创建项目
 
