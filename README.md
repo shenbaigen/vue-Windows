@@ -56,6 +56,7 @@ cnpm install webpack -g
 
 （C盘）进行全局安装，在命令行里输入：
 cnpm install -g vue-cli  
+![图片](https://user-images.githubusercontent.com/89723655/138818690-b576ecb5-850f-45a9-8f8c-1bf8ba647093.png)
 
 3.创建项目
 
