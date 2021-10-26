@@ -3,15 +3,14 @@
 一、安装node.js
 
 官网：https://nodejs.org/en/download/
-1.第一步检测一下电脑是否安装node.js
 
-(1).开始-搜索cmd-回车，在命令行输入node -v，回车，如果出现“'node' 不是内部或外部命令，也不是可运行的程序...”时说明没有安装node.js;
+(1).https://nodejs.org/en/  下载并安装node.js（选择LTS格式），下载好后双击开始安装，点击Next：
 
-(2).https://nodejs.org/en/  下载并安装node.js（选择LTS格式），下载好后双击开始安装，点击Next：
+(2).勾选“I accept the terms in the License Agreement”同意许可协议，并单击Next下一步，出现如下界面：
+![图片](https://user-images.githubusercontent.com/89723655/138819850-9da42ab5-41cc-4d5b-86c2-2889058a2335.png)
 
-(3).勾选“I accept the terms in the License Agreement”同意许可协议，并单击Next下一步，出现如下界面：
 
-(4).Node.js默认安装路径为“C:\nodejs\”，可以修改其他盘（我选择的是安装在C盘），单击Next，出现安装模式及模块选择界面：
+(3.Node.js默认安装路径为“C:\nodejs\”，可以修改其他盘（我选择的是安装在C盘），单击Next，出现安装模式及模块选择界面：
 ![图片](https://user-images.githubusercontent.com/89723655/138818965-00e6b761-4cff-4448-b970-9059c7e20191.png)
 
 (5).接着点击Next:
@@ -19,6 +18,7 @@
 (6).确认无误后，点击Install，开始安装：
 
 (7).耐心等待一会，安装完成，点击Finish即可：
+
 
 二、配置node.js
 我希望将全模块所在路径和缓存路径放在我node.js安装的文件夹中
