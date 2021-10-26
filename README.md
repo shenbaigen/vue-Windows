@@ -11,7 +11,7 @@
 
 (3).勾选“I accept the terms in the License Agreement”同意许可协议，并单击Next下一步，出现如下界面：
 
-(4).Node.js默认安装路径为“C:\nodejs\”，可以修改其他盘（我选择的是安装在D盘），单击Next，出现安装模式及模块选择界面：
+(4).Node.js默认安装路径为“C:\nodejs\”，可以修改其他盘（我选择的是安装在C盘），单击Next，出现安装模式及模块选择界面：
 
 (5).接着点击Next:
 
@@ -19,15 +19,14 @@
 
 (7).耐心等待一会，安装完成，点击Finish即可：
 
-(8).打开cmd（Windows+R），检测node是否安装成功：
-
+二、配置node.js
 我希望将全模块所在路径和缓存路径放在我node.js安装的文件夹中
 1.在C:\nodejs 目录下新建文件夹  
 
 node_global 
 node_cache
 
-2.运行命令
+2.运行命令 
 npm config set prefix "C:\nodejs\node_global"
 npm config set cache "C:\nodejs\node_cache"
 
